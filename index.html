@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js" defer></script>
+
+</head>
+<body>
+    <main>
+        <div class="addContainer">
+            <div class="title">
+                <h1>To Do List</h1>
+            </div>
+            <div class="insert">
+                <input id="addInput" type="text" placeholder="O que tem a fazer?">
+                <button id="addBtn"><i class="fa fa-add"></i></button>
+                <button class="saveTasks">Salvar tarefas (Clique após editar)</button>
+            </div>
+        </div>
+        <div class="listContainer">
+            
+        </div>
+    </main>
+    <section class="hide">
+        <form>
+            <h2>Altere o nome da sua tarefa</h2>
+            <input type="text" id="editInput">
+            <button id="editBtn" class="saveEdit">Confirmar alteração</button>
+            <button id="cancelBtn" class="cancelEdit"><i class="fa-solid fa-close"></i></button>
+        </form>
+    </section>
+</body>
+</html>
