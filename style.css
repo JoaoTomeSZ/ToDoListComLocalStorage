@@ -15,6 +15,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 main{
@@ -190,6 +191,12 @@ p{
 
 .fa-edit{
     width: 100%;
+}
+
+@media (min-width: 200px) and (max-width: 500px){
+    body{
+        height: 100svh;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 1200px){
